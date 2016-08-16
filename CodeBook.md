@@ -24,6 +24,6 @@ activity_labels.txt : A name description of the activities
   Dataset : LabelData + SubjectData + Set
 3. The data was selected based on the columns, if it has a mean() or std()
 
-4. Renamed the column with more readable names
+4. Renamed the column with more readable names.
 
 5. created a new Tidy Dataset with new aggregate data.
