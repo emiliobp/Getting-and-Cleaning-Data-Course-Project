@@ -68,5 +68,7 @@ names(DataSet)<-gsub("Gyro", "Gyroscope", names(DataSet))
 
 ##Create a tidy data set with new set of aggregations
 aggdata <-aggregate(DataSet[,c(-1,-2)], by=list(DataSet$Subject, DataSet$Activity) , FUN=mean)
+colnames(aggdata)[colnames(aggdata)=="Group.1"] <- "Subject ID"
+colnames(aggdata)[colnames(aggdata)=="Group.2"] <- "Activity ID"
 ##Write the aggregate data on a new file
 write.table(aggdata, file = "tidyAggregate.txt", row.name=FALSE)
