@@ -3,15 +3,19 @@
 
 # Data
 y_test.txt : The activity idfor each observation from the X_test.txt.
+
 y_train.txt : The activity idfor each observation from the X_train.txt.
 
 subject_test.txt : The subject id for each observation from the test X_test.
+
 subject_train.txt : The subject id for each observation from the test X_train.
 
 X_test.txt : Testing observations from the different features.
+
 X_train.txt : Train observations from the different features.
 
 features.txt :  The list of names of the different features.
+
 activity_labels.txt : A name description of the activities
 
 # Script
